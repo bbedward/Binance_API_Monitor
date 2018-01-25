@@ -1,10 +1,5 @@
 import requests
 
-try:
-	from urllib import urlencode
-except ImportError:
-	from urllib.parse import urlencode
-
 class API:
 
 	URL = "https://www.binance.com/api/v1"
